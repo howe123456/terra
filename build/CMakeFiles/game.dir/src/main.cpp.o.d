@@ -138,4 +138,5 @@ CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/basic_ios.tcc \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
- /usr/include/c++/16/bits/istream.tcc
+ /usr/include/c++/16/bits/istream.tcc \
+ /home/howe/c_project/terra/terra/thirdparty/raylib/src/raylib.h
