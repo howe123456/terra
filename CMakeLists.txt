@@ -14,8 +14,14 @@ endif()
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "Build Raylib as static libraries" FORCE)
 project(game)
 file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
+
+# raylib 5.0 (and its bundled glfw) declare cmake_minimum_required below 3.5,
+# which CMake 4.x rejects. Raise the floor for these vendored subprojects.
+set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
+
 add_subdirectory(thirdparty/raylib)
 add_executable("${CMAKE_PROJECT_NAME}")
+target_link_libraries("${CMAKE_PROJECT_NAME}" PRIVATE raylib)
 
 set_property(TARGET "${CMAKE_PROJECT_NAME}" PROPERTY CXX_STANDARD 17)
 
