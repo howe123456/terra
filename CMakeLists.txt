@@ -20,8 +20,9 @@ file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/*.c
 set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
 
 add_subdirectory(thirdparty/raylib)
+add_subdirectory(thirdparty/ImGui)
 add_executable("${CMAKE_PROJECT_NAME}")
-target_link_libraries("${CMAKE_PROJECT_NAME}" PRIVATE raylib)
+target_link_libraries("${CMAKE_PROJECT_NAME}" PRIVATE raylib imgui)
 
 set_property(TARGET "${CMAKE_PROJECT_NAME}" PROPERTY CXX_STANDARD 17)
 
