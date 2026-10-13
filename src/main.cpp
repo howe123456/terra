@@ -1,6 +1,7 @@
 #include <iostream>
 #include "raylib.h"
 
+#include "imgui.h"
 int main()
 {
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
@@ -8,7 +9,6 @@ int main()
 
 
     //game main while
-
     while (!WindowShouldClose())
     {
         BeginDrawing();

@@ -21,8 +21,9 @@ set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
 
 add_subdirectory(thirdparty/raylib)
 add_subdirectory(thirdparty/ImGui)
+add_subdirectory(thirdparty/RlImGui)
 add_executable("${CMAKE_PROJECT_NAME}")
-target_link_libraries("${CMAKE_PROJECT_NAME}" PRIVATE raylib imgui)
+target_link_libraries("${CMAKE_PROJECT_NAME}" PRIVATE raylib imgui rlimgui)
 
 set_property(TARGET "${CMAKE_PROJECT_NAME}" PROPERTY CXX_STANDARD 17)
 
