@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\"/home/howe/c_project/terra/terra/resources/\"
 
-CXX_INCLUDES = -I/home/howe/c_project/terra/terra/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include
+CXX_INCLUDES = -I/home/howe/c_project/terra/terra/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/RlImGui
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -mavx2 -mfma
+CXX_FLAGS = -std=gnu++17 -mavx2 -mfma
 

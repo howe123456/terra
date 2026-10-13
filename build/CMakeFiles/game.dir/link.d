@@ -4,6 +4,9 @@ game: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/game.dir/src/main.cpp.o \
   thirdparty/raylib/raylib/libraylib.a \
+  thirdparty/ImGui/libimgui.a \
+  thirdparty/RlImGui/librlimgui.a \
+  thirdparty/raylib/raylib/libraylib.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libpthread.a \
   /usr/lib/libOpenGL.so \
   /usr/lib/libGLX.so \
@@ -16,6 +19,7 @@ game: \
   /usr/lib/libm.so.6 \
   /usr/lib/libmvec.so.1 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libdl.a \
+  thirdparty/ImGui/libimgui.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -62,6 +66,12 @@ CMakeFiles/game.dir/src/main.cpp.o:
 
 thirdparty/raylib/raylib/libraylib.a:
 
+thirdparty/ImGui/libimgui.a:
+
+thirdparty/RlImGui/librlimgui.a:
+
+thirdparty/raylib/raylib/libraylib.a:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libpthread.a:
 
 /usr/lib/libOpenGL.so:
@@ -85,6 +95,8 @@ thirdparty/raylib/raylib/external/glfw/src/libglfw3.a:
 /usr/lib/libmvec.so.1:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libdl.a:
+
+thirdparty/ImGui/libimgui.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.a:
 

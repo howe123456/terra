@@ -26,9 +26,8 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Release
+//Choose the type of build.
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -867,6 +866,15 @@ game_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 game_SOURCE_DIR:STATIC=/home/howe/c_project/terra/terra
 
+//Value Computed by CMake
+imgui_BINARY_DIR:STATIC=/home/howe/c_project/terra/terra/build/thirdparty/ImGui
+
+//Value Computed by CMake
+imgui_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+imgui_SOURCE_DIR:STATIC=/home/howe/c_project/terra/terra/thirdparty/ImGui
+
 //Path to a library.
 pkgcfg_lib_PKG_FONTCONFIG_fontconfig:FILEPATH=/usr/lib/libfontconfig.so
 
@@ -885,6 +893,18 @@ raylib_LIB_DEPENDS:STATIC=general;m;pthread;/usr/lib/libOpenGL.so;/usr/lib/libGL
 //Value Computed by CMake
 raylib_SOURCE_DIR:STATIC=/home/howe/c_project/terra/terra/thirdparty/raylib/src
 
+//Value Computed by CMake
+rlimgui_BINARY_DIR:STATIC=/home/howe/c_project/terra/terra/build/thirdparty/RlImGui
+
+//Value Computed by CMake
+rlimgui_IS_TOP_LEVEL:STATIC=OFF
+
+//Dependencies for the target
+rlimgui_LIB_DEPENDS:STATIC=general;imgui;general;raylib;
+
+//Value Computed by CMake
+rlimgui_SOURCE_DIR:STATIC=/home/howe/c_project/terra/terra/thirdparty/RlImGui
+
 
 ########################
 # INTERNAL cache entries
@@ -894,6 +914,8 @@ raylib_SOURCE_DIR:STATIC=/home/howe/c_project/terra/terra/thirdparty/raylib/src
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
+//STRINGS property for variable: CMAKE_BUILD_TYPE
+CMAKE_BUILD_TYPE-STRINGS:INTERNAL=Debug;Release;MinSizeRel;RelWithDebInfo
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=/home/howe/c_project/terra/terra/build
 //Major version of cmake used to create the current loaded cache
@@ -1043,7 +1065,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

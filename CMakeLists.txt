@@ -39,7 +39,6 @@ else()
 endif()
 
 target_sources("${CMAKE_PROJECT_NAME}" PRIVATE ${SOURCES})
-target_sources("${CMAKE_PROJECT_NAME}" PRIVATE "${SOURCES}")
 if(MSVC)
     target_compile_definitions("${CMAKE_PROJECT_NAME}" PUBLIC _CRT_SECURE_NO_WARNINGS)
 
@@ -50,16 +49,18 @@ if(MSVC)
 
 elseif(MINGW)
     if(PRODUCTION_BUILD)
-        target_link_options("${CMAKE_PrOJeCT_NAME}" PRIVATE
+        target_link_options("${CMAKE_PROJECT_NAME}" PRIVATE
             -mwindows
         )
     endif()
 
 elseif(APPLE OR UNIX)
     if(PRODUCTION_BUILD)
-            target_link_options("${CMAKE_PROJECT_NAME}" PRIVAETE -s)
+            target_link_options("${CMAKE_PROJECT_NAME}" PRIVATE -s)
     endif()    
     
 endif()
 
-target_include_directories("${CMAKE_PROJECT_NAME}" PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src/")
+target_include_directories("${CMAKE_PROJECT_NAME}" PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src/gameLayer")
+target_include_directories("${CMAKE_PROJECT_NAME}" PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src/platfrom")
+

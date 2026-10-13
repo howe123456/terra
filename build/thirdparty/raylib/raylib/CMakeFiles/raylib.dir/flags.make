@@ -6,5 +6,5 @@ C_DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
 
 C_INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -isystem /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include
 
-C_FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -O3 -DNDEBUG -std=gnu99 -mavx2 -mfma
+C_FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -mavx2 -mfma
 

@@ -691,7 +691,7 @@ void ImGui_ImplRaylib_Shutdown()
         if (texture->Status != ImTextureStatus_Destroyed)
         {
             Texture* backendData = (Texture*)texture->BackendUserData;
-            if (backendData && IsTextureValid(*backendData))
+            if (backendData && IsTextureReady(*backendData))
             {
                 UnloadTexture(*backendData);
             }

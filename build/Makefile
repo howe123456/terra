@@ -247,6 +247,32 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build.make thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+#=============================================================================
+# Target rules for targets named imgui
+
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imgui
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) $(MAKESILENT) -f thirdparty/ImGui/CMakeFiles/imgui.dir/build.make thirdparty/ImGui/CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
+#=============================================================================
+# Target rules for targets named rlimgui
+
+# Build rule for target.
+rlimgui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rlimgui
+.PHONY : rlimgui
+
+# fast build rule for target.
+rlimgui/fast:
+	$(MAKE) $(MAKESILENT) -f thirdparty/RlImGui/CMakeFiles/rlimgui.dir/build.make thirdparty/RlImGui/CMakeFiles/rlimgui.dir/build
+.PHONY : rlimgui/fast
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -289,7 +315,9 @@ help:
 	@echo "... update_mappings"
 	@echo "... game"
 	@echo "... glfw"
+	@echo "... imgui"
 	@echo "... raylib"
+	@echo "... rlimgui"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

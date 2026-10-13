@@ -6,7 +6,7 @@ C_DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
 
 C_INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
 
-C_FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -O3 -DNDEBUG -std=c99 -fPIC -mavx2 -mfma -Wall
+C_FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=c99 -fPIC -mavx2 -mfma -Wall
 
 # Custom flags: thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

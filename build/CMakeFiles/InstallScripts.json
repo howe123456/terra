@@ -5,7 +5,9 @@
 		"/home/howe/c_project/terra/terra/build/thirdparty/raylib/cmake_install.cmake",
 		"/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/cmake_install.cmake",
 		"/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/cmake_install.cmake",
-		"/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src/cmake_install.cmake"
+		"/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src/cmake_install.cmake",
+		"/home/howe/c_project/terra/terra/build/thirdparty/ImGui/cmake_install.cmake",
+		"/home/howe/c_project/terra/terra/build/thirdparty/RlImGui/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

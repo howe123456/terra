@@ -97,12 +97,16 @@ game: CMakeFiles/game.dir/src/main.cpp.o
 game: CMakeFiles/game.dir/build.make
 game: CMakeFiles/game.dir/compiler_depend.ts
 game: thirdparty/raylib/raylib/libraylib.a
+game: thirdparty/ImGui/libimgui.a
+game: thirdparty/RlImGui/librlimgui.a
+game: thirdparty/raylib/raylib/libraylib.a
 game: /usr/lib/libOpenGL.so
 game: /usr/lib/libGLX.so
 game: /usr/lib/libGLU.so
 game: thirdparty/raylib/raylib/external/glfw/src/libglfw3.a
 game: /usr/lib/librt.a
 game: /usr/lib/libm.so
+game: thirdparty/ImGui/libimgui.a
 game: CMakeFiles/game.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/howe/c_project/terra/terra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
