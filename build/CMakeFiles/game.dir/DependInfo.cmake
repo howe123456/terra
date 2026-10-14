@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/howe/c_project/terra/terra/src/main.cpp" "CMakeFiles/game.dir/src/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/main.cpp.o.d"
+  "/home/howe/c_project/terra/terra/src/gameLayer/asserts.cpp" "CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o" "gcc" "CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o.d"
+  "/home/howe/c_project/terra/terra/src/gameLayer/gameMain.cpp" "CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o" "gcc" "CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o.d"
+  "/home/howe/c_project/terra/terra/src/platform/main.cpp" "CMakeFiles/game.dir/src/platform/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/platform/main.cpp.o.d"
   "" "game" "gcc" "CMakeFiles/game.dir/link.d"
   )
 

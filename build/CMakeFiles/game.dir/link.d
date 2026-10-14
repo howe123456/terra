@@ -2,7 +2,9 @@ game: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
-  CMakeFiles/game.dir/src/main.cpp.o \
+  CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o \
+  CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o \
+  CMakeFiles/game.dir/src/platform/main.cpp.o \
   thirdparty/raylib/raylib/libraylib.a \
   thirdparty/ImGui/libimgui.a \
   thirdparty/RlImGui/librlimgui.a \
@@ -62,7 +64,11 @@ game: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
 
-CMakeFiles/game.dir/src/main.cpp.o:
+CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o:
+
+CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o:
+
+CMakeFiles/game.dir/src/platform/main.cpp.o:
 
 thirdparty/raylib/raylib/libraylib.a:
 

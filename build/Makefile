@@ -273,29 +273,77 @@ rlimgui/fast:
 	$(MAKE) $(MAKESILENT) -f thirdparty/RlImGui/CMakeFiles/rlimgui.dir/build.make thirdparty/RlImGui/CMakeFiles/rlimgui.dir/build
 .PHONY : rlimgui/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/gameLayer/asserts.o: src/gameLayer/asserts.cpp.o
+.PHONY : src/gameLayer/asserts.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/gameLayer/asserts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o
+.PHONY : src/gameLayer/asserts.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/gameLayer/asserts.i: src/gameLayer/asserts.cpp.i
+.PHONY : src/gameLayer/asserts.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/gameLayer/asserts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/gameLayer/asserts.cpp.i
+.PHONY : src/gameLayer/asserts.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/gameLayer/asserts.s: src/gameLayer/asserts.cpp.s
+.PHONY : src/gameLayer/asserts.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/gameLayer/asserts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/gameLayer/asserts.cpp.s
+.PHONY : src/gameLayer/asserts.cpp.s
+
+src/gameLayer/gameMain.o: src/gameLayer/gameMain.cpp.o
+.PHONY : src/gameLayer/gameMain.o
+
+# target to build an object file
+src/gameLayer/gameMain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o
+.PHONY : src/gameLayer/gameMain.cpp.o
+
+src/gameLayer/gameMain.i: src/gameLayer/gameMain.cpp.i
+.PHONY : src/gameLayer/gameMain.i
+
+# target to preprocess a source file
+src/gameLayer/gameMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.i
+.PHONY : src/gameLayer/gameMain.cpp.i
+
+src/gameLayer/gameMain.s: src/gameLayer/gameMain.cpp.s
+.PHONY : src/gameLayer/gameMain.s
+
+# target to generate assembly for a file
+src/gameLayer/gameMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.s
+.PHONY : src/gameLayer/gameMain.cpp.s
+
+src/platform/main.o: src/platform/main.cpp.o
+.PHONY : src/platform/main.o
+
+# target to build an object file
+src/platform/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/platform/main.cpp.o
+.PHONY : src/platform/main.cpp.o
+
+src/platform/main.i: src/platform/main.cpp.i
+.PHONY : src/platform/main.i
+
+# target to preprocess a source file
+src/platform/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/platform/main.cpp.i
+.PHONY : src/platform/main.cpp.i
+
+src/platform/main.s: src/platform/main.cpp.s
+.PHONY : src/platform/main.s
+
+# target to generate assembly for a file
+src/platform/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/platform/main.cpp.s
+.PHONY : src/platform/main.cpp.s
 
 # Help Target
 help:
@@ -318,9 +366,15 @@ help:
 	@echo "... imgui"
 	@echo "... raylib"
 	@echo "... rlimgui"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/gameLayer/asserts.o"
+	@echo "... src/gameLayer/asserts.i"
+	@echo "... src/gameLayer/asserts.s"
+	@echo "... src/gameLayer/gameMain.o"
+	@echo "... src/gameLayer/gameMain.i"
+	@echo "... src/gameLayer/gameMain.s"
+	@echo "... src/platform/main.o"
+	@echo "... src/platform/main.i"
+	@echo "... src/platform/main.s"
 .PHONY : help
 
 

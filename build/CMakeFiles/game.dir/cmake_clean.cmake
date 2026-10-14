@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/game.dir/link.d"
-  "CMakeFiles/game.dir/src/main.cpp.o"
-  "CMakeFiles/game.dir/src/main.cpp.o.d"
+  "CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o"
+  "CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o.d"
+  "CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o"
+  "CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o.d"
+  "CMakeFiles/game.dir/src/platform/main.cpp.o"
+  "CMakeFiles/game.dir/src/platform/main.cpp.o.d"
   "game"
   "game.pdb"
 )

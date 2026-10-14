@@ -4,7 +4,9 @@
 # SOURCES at CMakeLists.txt:16 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/howe/c_project/terra/terra/src/*.cpp")
 set(OLD_GLOB
-  "/home/howe/c_project/terra/terra/src/main.cpp"
+  "/home/howe/c_project/terra/terra/src/gameLayer/asserts.cpp"
+  "/home/howe/c_project/terra/terra/src/gameLayer/gameMain.cpp"
+  "/home/howe/c_project/terra/terra/src/platform/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

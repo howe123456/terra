@@ -72,28 +72,60 @@ include CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/codegen:
 .PHONY : CMakeFiles/game.dir/codegen
 
-CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/main.cpp.o: /home/howe/c_project/terra/terra/src/main.cpp
-CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/howe/c_project/terra/terra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.cpp.o -MF CMakeFiles/game.dir/src/main.cpp.o.d -o CMakeFiles/game.dir/src/main.cpp.o -c /home/howe/c_project/terra/terra/src/main.cpp
+CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o: /home/howe/c_project/terra/terra/src/gameLayer/asserts.cpp
+CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/howe/c_project/terra/terra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o -MF CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o.d -o CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o -c /home/howe/c_project/terra/terra/src/gameLayer/asserts.cpp
 
-CMakeFiles/game.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howe/c_project/terra/terra/src/main.cpp > CMakeFiles/game.dir/src/main.cpp.i
+CMakeFiles/game.dir/src/gameLayer/asserts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/gameLayer/asserts.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howe/c_project/terra/terra/src/gameLayer/asserts.cpp > CMakeFiles/game.dir/src/gameLayer/asserts.cpp.i
 
-CMakeFiles/game.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howe/c_project/terra/terra/src/main.cpp -o CMakeFiles/game.dir/src/main.cpp.s
+CMakeFiles/game.dir/src/gameLayer/asserts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/gameLayer/asserts.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howe/c_project/terra/terra/src/gameLayer/asserts.cpp -o CMakeFiles/game.dir/src/gameLayer/asserts.cpp.s
+
+CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o: /home/howe/c_project/terra/terra/src/gameLayer/gameMain.cpp
+CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/howe/c_project/terra/terra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o -MF CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o.d -o CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o -c /home/howe/c_project/terra/terra/src/gameLayer/gameMain.cpp
+
+CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howe/c_project/terra/terra/src/gameLayer/gameMain.cpp > CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.i
+
+CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howe/c_project/terra/terra/src/gameLayer/gameMain.cpp -o CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.s
+
+CMakeFiles/game.dir/src/platform/main.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/platform/main.cpp.o: /home/howe/c_project/terra/terra/src/platform/main.cpp
+CMakeFiles/game.dir/src/platform/main.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/howe/c_project/terra/terra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/platform/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/platform/main.cpp.o -MF CMakeFiles/game.dir/src/platform/main.cpp.o.d -o CMakeFiles/game.dir/src/platform/main.cpp.o -c /home/howe/c_project/terra/terra/src/platform/main.cpp
+
+CMakeFiles/game.dir/src/platform/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/platform/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/howe/c_project/terra/terra/src/platform/main.cpp > CMakeFiles/game.dir/src/platform/main.cpp.i
+
+CMakeFiles/game.dir/src/platform/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/platform/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/howe/c_project/terra/terra/src/platform/main.cpp -o CMakeFiles/game.dir/src/platform/main.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
-"CMakeFiles/game.dir/src/main.cpp.o"
+"CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o" \
+"CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o" \
+"CMakeFiles/game.dir/src/platform/main.cpp.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
-game: CMakeFiles/game.dir/src/main.cpp.o
+game: CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o
+game: CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o
+game: CMakeFiles/game.dir/src/platform/main.cpp.o
 game: CMakeFiles/game.dir/build.make
 game: CMakeFiles/game.dir/compiler_depend.ts
 game: thirdparty/raylib/raylib/libraylib.a
@@ -108,7 +140,7 @@ game: /usr/lib/librt.a
 game: /usr/lib/libm.so
 game: thirdparty/ImGui/libimgui.a
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/howe/c_project/terra/terra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/howe/c_project/terra/terra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

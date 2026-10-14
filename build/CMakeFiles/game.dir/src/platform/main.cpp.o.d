@@ -1,6 +1,7 @@
-CMakeFiles/game.dir/src/main.cpp.o: \
- /home/howe/c_project/terra/terra/src/main.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/16/iostream /usr/include/c++/16/bits/requires_hosted.h \
+CMakeFiles/game.dir/src/platform/main.cpp.o: \
+ /home/howe/c_project/terra/terra/src/platform/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/16/iostream \
+ /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -143,4 +144,5 @@ CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/float.h \
  /usr/include/string.h /usr/include/strings.h /usr/include/assert.h \
  /home/howe/c_project/terra/terra/thirdparty/RlImGui/rlImGui.h \
- /home/howe/c_project/terra/terra/thirdparty/RlImGui/extras/IconsFontAwesome6.h
+ /home/howe/c_project/terra/terra/thirdparty/RlImGui/extras/IconsFontAwesome6.h \
+ /home/howe/c_project/terra/terra/src/gameLayer/gameMain.h
