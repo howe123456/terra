@@ -49,6 +49,16 @@ cmake_ninja_workdir = /home/howe/c_project/terra/terra/build/
 
 build cmake_object_order_depends_target_game: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui cmake_object_order_depends_target_raylib cmake_object_order_depends_target_rlimgui
 
+build CMakeFiles/game.dir/src/gameLayer/AssetManager.cpp.o: CXX_COMPILER__game_unscanned_Debug /home/howe/c_project/terra/terra/src/gameLayer/AssetManager.cpp || cmake_object_order_depends_target_game
+  CONFIG = Debug
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\"/home/howe/c_project/terra/terra/resources/\"
+  DEP_FILE = CMakeFiles/game.dir/src/gameLayer/AssetManager.cpp.o.d
+  FLAGS = -g -std=gnu++17 -mavx2 -mfma
+  INCLUDES = -I/home/howe/c_project/terra/terra/src/gameLayer -I/home/howe/c_project/terra/terra/src/platfrom -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/RlImGui
+  OBJECT_DIR = CMakeFiles/game.dir
+  OBJECT_FILE_DIR = CMakeFiles/game.dir/src/gameLayer
+  TARGET_SUPPORT_DIR = CMakeFiles/game.dir
+
 build CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o: CXX_COMPILER__game_unscanned_Debug /home/howe/c_project/terra/terra/src/gameLayer/asserts.cpp || cmake_object_order_depends_target_game
   CONFIG = Debug
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\"/home/howe/c_project/terra/terra/resources/\"
@@ -57,8 +67,6 @@ build CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o: CXX_COMPILER__game_unscan
   INCLUDES = -I/home/howe/c_project/terra/terra/src/gameLayer -I/home/howe/c_project/terra/terra/src/platfrom -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/RlImGui
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src/gameLayer
-  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
-  TARGET_PDB = game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/game.dir
 
 build CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o: CXX_COMPILER__game_unscanned_Debug /home/howe/c_project/terra/terra/src/gameLayer/gameMain.cpp || cmake_object_order_depends_target_game
@@ -69,8 +77,16 @@ build CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o: CXX_COMPILER__game_unsca
   INCLUDES = -I/home/howe/c_project/terra/terra/src/gameLayer -I/home/howe/c_project/terra/terra/src/platfrom -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/RlImGui
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src/gameLayer
-  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
-  TARGET_PDB = game.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles/game.dir
+
+build CMakeFiles/game.dir/src/gameLayer/gameMap.cpp.o: CXX_COMPILER__game_unscanned_Debug /home/howe/c_project/terra/terra/src/gameLayer/gameMap.cpp || cmake_object_order_depends_target_game
+  CONFIG = Debug
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\"/home/howe/c_project/terra/terra/resources/\"
+  DEP_FILE = CMakeFiles/game.dir/src/gameLayer/gameMap.cpp.o.d
+  FLAGS = -g -std=gnu++17 -mavx2 -mfma
+  INCLUDES = -I/home/howe/c_project/terra/terra/src/gameLayer -I/home/howe/c_project/terra/terra/src/platfrom -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/RlImGui
+  OBJECT_DIR = CMakeFiles/game.dir
+  OBJECT_FILE_DIR = CMakeFiles/game.dir/src/gameLayer
   TARGET_SUPPORT_DIR = CMakeFiles/game.dir
 
 build CMakeFiles/game.dir/src/platform/main.cpp.o: CXX_COMPILER__game_unscanned_Debug /home/howe/c_project/terra/terra/src/platform/main.cpp || cmake_object_order_depends_target_game
@@ -81,8 +97,6 @@ build CMakeFiles/game.dir/src/platform/main.cpp.o: CXX_COMPILER__game_unscanned_
   INCLUDES = -I/home/howe/c_project/terra/terra/src/gameLayer -I/home/howe/c_project/terra/terra/src/platfrom -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/RlImGui
   OBJECT_DIR = CMakeFiles/game.dir
   OBJECT_FILE_DIR = CMakeFiles/game.dir/src/platform
-  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
-  TARGET_PDB = game.pdb
   TARGET_SUPPORT_DIR = CMakeFiles/game.dir
 
 
@@ -93,7 +107,7 @@ build CMakeFiles/game.dir/src/platform/main.cpp.o: CXX_COMPILER__game_unscanned_
 #############################################
 # Link the executable game
 
-build game: CXX_EXECUTABLE_LINKER__game_Debug CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o CMakeFiles/game.dir/src/platform/main.cpp.o | thirdparty/raylib/raylib/libraylib.a thirdparty/ImGui/libimgui.a thirdparty/RlImGui/librlimgui.a thirdparty/raylib/raylib/libraylib.a /usr/lib/libOpenGL.so /usr/lib/libGLX.so /usr/lib/libGLU.so thirdparty/raylib/raylib/external/glfw/src/libglfw3.a /usr/lib/librt.a /usr/lib/libm.so thirdparty/ImGui/libimgui.a || thirdparty/ImGui/libimgui.a thirdparty/RlImGui/librlimgui.a thirdparty/raylib/raylib/external/glfw/src/libglfw3.a thirdparty/raylib/raylib/libraylib.a
+build game: CXX_EXECUTABLE_LINKER__game_Debug CMakeFiles/game.dir/src/gameLayer/AssetManager.cpp.o CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o CMakeFiles/game.dir/src/gameLayer/gameMap.cpp.o CMakeFiles/game.dir/src/platform/main.cpp.o | thirdparty/raylib/raylib/libraylib.a thirdparty/ImGui/libimgui.a thirdparty/RlImGui/librlimgui.a thirdparty/raylib/raylib/libraylib.a /usr/lib/libOpenGL.so /usr/lib/libGLX.so /usr/lib/libGLU.so thirdparty/raylib/raylib/external/glfw/src/libglfw3.a /usr/lib/librt.a /usr/lib/libm.so thirdparty/ImGui/libimgui.a || thirdparty/ImGui/libimgui.a thirdparty/RlImGui/librlimgui.a thirdparty/raylib/raylib/external/glfw/src/libglfw3.a thirdparty/raylib/raylib/libraylib.a
   CONFIG = Debug
   DEP_FILE = CMakeFiles/game.dir/link.d
   FLAGS = -g
@@ -102,9 +116,8 @@ build game: CXX_EXECUTABLE_LINKER__game_Debug CMakeFiles/game.dir/src/gameLayer/
   OBJECT_DIR = CMakeFiles/game.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/game.dir/
   TARGET_FILE = game
-  TARGET_PDB = game.pdb
+  TARGET_PDB = game.dbg
   TARGET_SUPPORT_DIR = CMakeFiles/game.dir
 
 
@@ -327,8 +340,6 @@ build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.o: C_COMPILER__rayl
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -isystem /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include
   OBJECT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raylib.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/libraylib.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
 
 build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.o: C_COMPILER__raylib_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/rmodels.c || cmake_object_order_depends_target_raylib
@@ -339,8 +350,6 @@ build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.o: C_COMPILER__ra
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -isystem /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include
   OBJECT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raylib.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/libraylib.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
 
 build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.o: C_COMPILER__raylib_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/rshapes.c || cmake_object_order_depends_target_raylib
@@ -351,8 +360,6 @@ build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.o: C_COMPILER__ra
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -isystem /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include
   OBJECT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raylib.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/libraylib.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
 
 build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.o: C_COMPILER__raylib_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/rtext.c || cmake_object_order_depends_target_raylib
@@ -363,8 +370,6 @@ build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.o: C_COMPILER__rayl
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -isystem /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include
   OBJECT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raylib.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/libraylib.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
 
 build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.o: C_COMPILER__raylib_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/rtextures.c || cmake_object_order_depends_target_raylib
@@ -375,8 +380,6 @@ build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.o: C_COMPILER__
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -isystem /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include
   OBJECT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raylib.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/libraylib.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
 
 build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/utils.c.o: C_COMPILER__raylib_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/utils.c || cmake_object_order_depends_target_raylib
@@ -387,8 +390,6 @@ build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/utils.c.o: C_COMPILER__rayl
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -isystem /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include
   OBJECT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raylib.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/libraylib.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
 
 build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.o: C_COMPILER__raylib_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/raudio.c || cmake_object_order_depends_target_raylib
@@ -399,8 +400,6 @@ build thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.o: C_COMPILER__ray
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -isystem /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include
   OBJECT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raylib.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/libraylib.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
 
 
@@ -417,9 +416,8 @@ build thirdparty/raylib/raylib/libraylib.a: C_STATIC_LIBRARY_LINKER__raylib_Debu
   OBJECT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/CMakeFiles/raylib.dir/raylib.pdb
   TARGET_FILE = thirdparty/raylib/raylib/libraylib.a
-  TARGET_PDB = thirdparty/raylib/raylib/libraylib.pdb
+  TARGET_PDB = raylib.a.dbg
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/CMakeFiles/raylib.dir
 
 
@@ -629,8 +627,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.o
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/init.c || cmake_object_order_depends_target_glfw
@@ -641,8 +637,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.o: C
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/input.c || cmake_object_order_depends_target_glfw
@@ -653,8 +647,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.o: 
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
@@ -665,8 +657,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/platform.c || cmake_object_order_depends_target_glfw
@@ -677,8 +667,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
@@ -689,8 +677,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o:
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/window.c || cmake_object_order_depends_target_glfw
@@ -701,8 +687,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.o:
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
@@ -713,8 +697,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
@@ -725,8 +707,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_cont
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
@@ -737,8 +717,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
@@ -749,8 +727,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monito
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
@@ -761,8 +737,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
@@ -773,8 +747,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joysti
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/posix_module.c || cmake_object_order_depends_target_glfw
@@ -785,8 +757,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_modul
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/posix_time.c || cmake_object_order_depends_target_glfw
@@ -797,8 +767,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_time.
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/posix_thread.c || cmake_object_order_depends_target_glfw
@@ -809,8 +777,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_threa
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/x11_init.c || cmake_object_order_depends_target_glfw
@@ -821,8 +787,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_init.c.
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/x11_monitor.c || cmake_object_order_depends_target_glfw
@@ -833,8 +797,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_monitor
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/x11_window.c || cmake_object_order_depends_target_glfw
@@ -845,8 +807,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/x11_window.
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/xkb_unicode.c || cmake_object_order_depends_target_glfw
@@ -857,8 +817,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/xkb_unicode
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/glx_context.c || cmake_object_order_depends_target_glfw
@@ -869,8 +827,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glx_context
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/linux_joystick.c || cmake_object_order_depends_target_glfw
@@ -881,8 +837,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/linux_joyst
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: C_COMPILER__glfw_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/posix_poll.c || cmake_object_order_depends_target_glfw
@@ -893,8 +847,6 @@ build thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/posix_poll.
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src -I/home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 
@@ -911,9 +863,8 @@ build thirdparty/raylib/raylib/external/glfw/src/libglfw3.a: C_STATIC_LIBRARY_LI
   OBJECT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir/glfw.pdb
   TARGET_FILE = thirdparty/raylib/raylib/external/glfw/src/libglfw3.a
-  TARGET_PDB = thirdparty/raylib/raylib/external/glfw/src/libglfw3.pdb
+  TARGET_PDB = glfw3.a.dbg
   TARGET_SUPPORT_DIR = thirdparty/raylib/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
 
@@ -1041,8 +992,6 @@ build thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui/imgui.cpp.o: CXX_COMPILER__img
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui
   OBJECT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui
-  TARGET_COMPILE_PDB = thirdparty/ImGui/CMakeFiles/imgui.dir/imgui.pdb
-  TARGET_PDB = thirdparty/ImGui/libimgui.pdb
   TARGET_SUPPORT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
 
 build thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui/imgui_demo.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
@@ -1052,8 +1001,6 @@ build thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui/imgui_demo.cpp.o: CXX_COMPILER
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui
   OBJECT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui
-  TARGET_COMPILE_PDB = thirdparty/ImGui/CMakeFiles/imgui.dir/imgui.pdb
-  TARGET_PDB = thirdparty/ImGui/libimgui.pdb
   TARGET_SUPPORT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
 
 build thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui/imgui_draw.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
@@ -1063,8 +1010,6 @@ build thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui/imgui_draw.cpp.o: CXX_COMPILER
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui
   OBJECT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui
-  TARGET_COMPILE_PDB = thirdparty/ImGui/CMakeFiles/imgui.dir/imgui.pdb
-  TARGET_PDB = thirdparty/ImGui/libimgui.pdb
   TARGET_SUPPORT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
 
 build thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui/imgui_tables.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
@@ -1074,8 +1019,6 @@ build thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui/imgui_tables.cpp.o: CXX_COMPIL
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui
   OBJECT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui
-  TARGET_COMPILE_PDB = thirdparty/ImGui/CMakeFiles/imgui.dir/imgui.pdb
-  TARGET_PDB = thirdparty/ImGui/libimgui.pdb
   TARGET_SUPPORT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
 
 build thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui/imgui_widgets.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
@@ -1085,8 +1028,6 @@ build thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui/imgui_widgets.cpp.o: CXX_COMPI
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui
   OBJECT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir/ImGui
-  TARGET_COMPILE_PDB = thirdparty/ImGui/CMakeFiles/imgui.dir/imgui.pdb
-  TARGET_PDB = thirdparty/ImGui/libimgui.pdb
   TARGET_SUPPORT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
 
 
@@ -1103,9 +1044,8 @@ build thirdparty/ImGui/libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_Debug thirdp
   OBJECT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = thirdparty/ImGui/CMakeFiles/imgui.dir/imgui.pdb
   TARGET_FILE = thirdparty/ImGui/libimgui.a
-  TARGET_PDB = thirdparty/ImGui/libimgui.pdb
+  TARGET_PDB = imgui.a.dbg
   TARGET_SUPPORT_DIR = thirdparty/ImGui/CMakeFiles/imgui.dir
 
 
@@ -1220,8 +1160,6 @@ build thirdparty/RlImGui/CMakeFiles/rlimgui.dir/rlImGui.cpp.o: CXX_COMPILER__rli
   INCLUDES = -I/home/howe/c_project/terra/terra/thirdparty/RlImGui -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include
   OBJECT_DIR = thirdparty/RlImGui/CMakeFiles/rlimgui.dir
   OBJECT_FILE_DIR = thirdparty/RlImGui/CMakeFiles/rlimgui.dir
-  TARGET_COMPILE_PDB = thirdparty/RlImGui/CMakeFiles/rlimgui.dir/rlimgui.pdb
-  TARGET_PDB = thirdparty/RlImGui/librlimgui.pdb
   TARGET_SUPPORT_DIR = thirdparty/RlImGui/CMakeFiles/rlimgui.dir
 
 
@@ -1238,9 +1176,8 @@ build thirdparty/RlImGui/librlimgui.a: CXX_STATIC_LIBRARY_LINKER__rlimgui_Debug 
   OBJECT_DIR = thirdparty/RlImGui/CMakeFiles/rlimgui.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = thirdparty/RlImGui/CMakeFiles/rlimgui.dir/rlimgui.pdb
   TARGET_FILE = thirdparty/RlImGui/librlimgui.a
-  TARGET_PDB = thirdparty/RlImGui/librlimgui.pdb
+  TARGET_PDB = rlimgui.a.dbg
   TARGET_SUPPORT_DIR = thirdparty/RlImGui/CMakeFiles/rlimgui.dir
 
 
@@ -1429,14 +1366,14 @@ build /home/howe/c_project/terra/terra/build/CMakeFiles/cmake.verify_globs: VERI
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja /home/howe/c_project/terra/terra/build/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/ImGui/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/RlImGui/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/CTestTestfile.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/CTestTestfile.cmake: RERUN_CMAKE /home/howe/c_project/terra/terra/build/CMakeFiles/cmake.verify_globs | /home/howe/c_project/terra/terra/CMakeLists.txt /home/howe/c_project/terra/terra/build/CMakeFiles/VerifyGlobs.cmake /home/howe/c_project/terra/terra/thirdparty/ImGui/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/RlImGui/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/CMakeOptions.txt /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/AddIfFlagCompiles.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/BuildOptions.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/CompileDefinitions.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/CompilerFlags.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/EnumOption.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/GlfwImport.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/InstallConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/JoinPaths.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/LibraryConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/LibraryPathToLinkerFlags.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/PackConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/PopulateConfigVariablesLocally.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/Uninstall.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/raylib-config-version.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/raylib.pc.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMake/glfw3.pc.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMake/glfw3Config.cmake.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCCompiler.cmake.in /usr/share/cmake/Modules/CMakeCCompilerABI.c /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake /usr/share/cmake/Modules/CMakeDetermineSystem.cmake /usr/share/cmake/Modules/CMakeFindBinUtils.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake/Modules/CMakeSystem.cmake.in /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CMakeTestCCompiler.cmake /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake/Modules/CPack.cmake /usr/share/cmake/Modules/CPackComponent.cmake /usr/share/cmake/Modules/CheckCCompilerFlag.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PellesC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindOpenGL.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake /usr/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake /usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake /usr/share/cmake/Modules/Internal/CheckCommon.cmake /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Internal/FeatureTesting.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake /usr/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake
+build build.ninja /home/howe/c_project/terra/terra/build/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/external/glfw/src/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/ImGui/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/RlImGui/cmake_install.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/CTestTestfile.cmake /home/howe/c_project/terra/terra/build/thirdparty/raylib/raylib/CTestTestfile.cmake: RERUN_CMAKE /home/howe/c_project/terra/terra/build/CMakeFiles/cmake.verify_globs | /home/howe/c_project/terra/terra/CMakeLists.txt /home/howe/c_project/terra/terra/build/CMakeFiles/VerifyGlobs.cmake /home/howe/c_project/terra/terra/thirdparty/ImGui/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/RlImGui/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/CMakeOptions.txt /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/AddIfFlagCompiles.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/BuildOptions.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/CompileDefinitions.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/CompilerFlags.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/EnumOption.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/GlfwImport.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/InstallConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/JoinPaths.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/LibraryConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/LibraryPathToLinkerFlags.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/PackConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/PopulateConfigVariablesLocally.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/Uninstall.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/raylib-config-version.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/raylib.pc.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMake/glfw3.pc.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMake/glfw3Config.cmake.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CPack.cmake /usr/share/cmake/Modules/CPackComponent.cmake /usr/share/cmake/Modules/CheckCCompilerFlag.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindOpenGL.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CheckCommon.cmake /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake /usr/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/howe/c_project/terra/terra/CMakeLists.txt /home/howe/c_project/terra/terra/build/CMakeFiles/VerifyGlobs.cmake /home/howe/c_project/terra/terra/thirdparty/ImGui/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/RlImGui/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/CMakeOptions.txt /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/AddIfFlagCompiles.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/BuildOptions.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/CompileDefinitions.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/CompilerFlags.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/EnumOption.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/GlfwImport.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/InstallConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/JoinPaths.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/LibraryConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/LibraryPathToLinkerFlags.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/PackConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/PopulateConfigVariablesLocally.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/Uninstall.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/raylib-config-version.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/raylib.pc.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMake/glfw3.pc.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMake/glfw3Config.cmake.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCCompiler.cmake.in /usr/share/cmake/Modules/CMakeCCompilerABI.c /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake /usr/share/cmake/Modules/CMakeDetermineSystem.cmake /usr/share/cmake/Modules/CMakeFindBinUtils.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake/Modules/CMakeSystem.cmake.in /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CMakeTestCCompiler.cmake /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake/Modules/CPack.cmake /usr/share/cmake/Modules/CPackComponent.cmake /usr/share/cmake/Modules/CheckCCompilerFlag.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PellesC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindOpenGL.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake /usr/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake /usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake /usr/share/cmake/Modules/Internal/CheckCommon.cmake /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Internal/FeatureTesting.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake /usr/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake: phony
+build /home/howe/c_project/terra/terra/CMakeLists.txt /home/howe/c_project/terra/terra/build/CMakeFiles/VerifyGlobs.cmake /home/howe/c_project/terra/terra/thirdparty/ImGui/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/RlImGui/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/CMakeOptions.txt /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/AddIfFlagCompiles.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/BuildOptions.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/CompileDefinitions.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/CompilerFlags.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/EnumOption.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/GlfwImport.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/InstallConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/JoinPaths.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/LibraryConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/LibraryPathToLinkerFlags.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/PackConfigurations.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/PopulateConfigVariablesLocally.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/Uninstall.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/cmake/raylib-config-version.cmake /home/howe/c_project/terra/terra/thirdparty/raylib/raylib.pc.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMake/glfw3.pc.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMake/glfw3Config.cmake.in /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/CMakeLists.txt /home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/src/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CPack.cmake /usr/share/cmake/Modules/CPackComponent.cmake /usr/share/cmake/Modules/CheckCCompilerFlag.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindOpenGL.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CheckCommon.cmake /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake /usr/share/cmake/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/4.4.2/CMakeCCompiler.cmake CMakeFiles/4.4.2/CMakeCXXCompiler.cmake CMakeFiles/4.4.2/CMakeSystem.cmake: phony
 
 
 #############################################

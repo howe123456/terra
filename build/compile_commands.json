@@ -1,6 +1,12 @@
 [
 {
   "directory": "/home/howe/c_project/terra/terra/build",
+  "command": "/usr/bin/g++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\\\"/home/howe/c_project/terra/terra/resources/\\\" -I/home/howe/c_project/terra/terra/src/gameLayer -I/home/howe/c_project/terra/terra/src/platfrom -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/RlImGui -g -std=gnu++17 -mavx2 -mfma -o CMakeFiles/game.dir/src/gameLayer/AssetManager.cpp.o -c /home/howe/c_project/terra/terra/src/gameLayer/AssetManager.cpp",
+  "file": "/home/howe/c_project/terra/terra/src/gameLayer/AssetManager.cpp",
+  "output": "/home/howe/c_project/terra/terra/build/CMakeFiles/game.dir/src/gameLayer/AssetManager.cpp.o"
+},
+{
+  "directory": "/home/howe/c_project/terra/terra/build",
   "command": "/usr/bin/g++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\\\"/home/howe/c_project/terra/terra/resources/\\\" -I/home/howe/c_project/terra/terra/src/gameLayer -I/home/howe/c_project/terra/terra/src/platfrom -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/RlImGui -g -std=gnu++17 -mavx2 -mfma -o CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o -c /home/howe/c_project/terra/terra/src/gameLayer/asserts.cpp",
   "file": "/home/howe/c_project/terra/terra/src/gameLayer/asserts.cpp",
   "output": "/home/howe/c_project/terra/terra/build/CMakeFiles/game.dir/src/gameLayer/asserts.cpp.o"
@@ -10,6 +16,12 @@
   "command": "/usr/bin/g++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\\\"/home/howe/c_project/terra/terra/resources/\\\" -I/home/howe/c_project/terra/terra/src/gameLayer -I/home/howe/c_project/terra/terra/src/platfrom -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/RlImGui -g -std=gnu++17 -mavx2 -mfma -o CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o -c /home/howe/c_project/terra/terra/src/gameLayer/gameMain.cpp",
   "file": "/home/howe/c_project/terra/terra/src/gameLayer/gameMain.cpp",
   "output": "/home/howe/c_project/terra/terra/build/CMakeFiles/game.dir/src/gameLayer/gameMain.cpp.o"
+},
+{
+  "directory": "/home/howe/c_project/terra/terra/build",
+  "command": "/usr/bin/g++ -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DPRODUCTION_BUILD=0 -DRESOURCES_PATH=\\\"/home/howe/c_project/terra/terra/resources/\\\" -I/home/howe/c_project/terra/terra/src/gameLayer -I/home/howe/c_project/terra/terra/src/platfrom -I/home/howe/c_project/terra/terra/thirdparty/raylib/src -I/home/howe/c_project/terra/terra/thirdparty/raylib/src/external/glfw/include -I/home/howe/c_project/terra/terra/thirdparty/ImGui/ImGui -I/home/howe/c_project/terra/terra/thirdparty/RlImGui -g -std=gnu++17 -mavx2 -mfma -o CMakeFiles/game.dir/src/gameLayer/gameMap.cpp.o -c /home/howe/c_project/terra/terra/src/gameLayer/gameMap.cpp",
+  "file": "/home/howe/c_project/terra/terra/src/gameLayer/gameMap.cpp",
+  "output": "/home/howe/c_project/terra/terra/build/CMakeFiles/game.dir/src/gameLayer/gameMap.cpp.o"
 },
 {
   "directory": "/home/howe/c_project/terra/terra/build",
